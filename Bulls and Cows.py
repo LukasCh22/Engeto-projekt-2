@@ -22,9 +22,7 @@ print("Hi there!",
       "I´ve generated a random 4 digit number for you.",
       "Let´s play a bulls and cows game",
       divider,
-      sep= "\n")
-
-print(secret_number)
+      sep="\n")
 
 number_of_guesses = 0
 
@@ -61,7 +59,6 @@ while True:
             elif number_of_guesses >= 4:
                 print("That´s not so good.")
 
-
         break
 
     else:
@@ -86,6 +83,3 @@ while True:
             print(f"Cow: {cows}")
         else:
             print(f"Cows: {cows}")
-
-
-
